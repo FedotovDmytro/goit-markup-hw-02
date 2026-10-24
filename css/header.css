@@ -47,6 +47,7 @@
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+  font-style: normal;
 }
 .address a:hover,
 .address a:focus {
