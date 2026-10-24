@@ -1,19 +1,11 @@
-h1 {
+.hero-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
-  letter-spacing: 0.02em;
-  color: #fff;
-}
-
-.hero {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #fff;
   background-color: #2e2f42;
 }
 
@@ -23,15 +15,12 @@ h1 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
   color: #fff;
   background-color: #4d5ae5;
 }
 
-.button:hover {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background: #404bbf;
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }

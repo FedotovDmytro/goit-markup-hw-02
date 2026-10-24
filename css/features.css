@@ -1,4 +1,4 @@
-.title-features h2 {
+.title-features {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -7,7 +7,7 @@
   color: #2e2f42;
 }
 
-#features h3 {
+.features-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   text-align: justify;
@@ -17,7 +17,7 @@
   color: #2e2f42;
 }
 
-#features p {
+.features-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;

@@ -20,7 +20,7 @@
   text-decoration: none;
 }
 
-.nav {
+.nav a {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -30,19 +30,12 @@
   text-decoration: none;
 }
 
-.nav:hover {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.nav a:hover,
+.nav a:focus {
   color: #404bbf;
 }
 
-.nav :active {
-  border-radius: 2px;
-  width: 65px;
-  height: 4px;
+.nav a:active {
   background: #404bbf;
 }
 
@@ -55,7 +48,8 @@
   color: #434455;
   text-decoration: none;
 }
-.address:hover a {
+.address a:hover,
+.address a:focus {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
